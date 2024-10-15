@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box;   */
+    max-width: 100%;   
+}
+body {
+    background-color: white;  
+    max-width: 100%;  
+    /* max-width: max-content; */
+}
+header {
+    /* max-width: 100%;   */
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(4,3,63);
+    padding: 0px;    
+}
+nav {  
+    display: flex;
+    justify-content: space-around;
+    /* font-family: Roboto-bold, sans-serif;         */
+	padding: 10px;
+    align-items: center ; 
+    position: relative;
+    background-color: rgb(4,3,63);
+}
+nav ul {
+    list-style: inside;
+}
+.nav-itens {
+    display: flex;    
+}
+
+.nav-itens li a {
+    border-style:none;  
+    /* padding-top: 5px; */
+    /* padding-bottom: 5px; */
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
+    padding-inline: 30px;
+    /* font-weight: 54px; */
+    /* font-style: bold; */
+    text-decoration: none;
+    
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+}
+.corpo { 
+    max-width: 100%;      
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 15px; color:black;    
+    /* margin-top: 10px; */
+    /* margin-bottom: 15px; */
+    justify-content: space-around;
+    padding-top: 5px 0px;    
+}
+
+.video-home {
+    background-color: rgb(202, 204, 199);
+    background-repeat: repeat;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 20px;
+    color: yellow;    
+}
+
+button {
+    color: rgb(63, 21, 212);
+}
+
+.login {
+    padding: 5px;
+    font-size: 12px;
+    font-style: bold;
+    background-color: #ffffff;
+    color:  black;
+    
+    text-decoration: none;
+    border-radius: 5px;    
+    cursor: pointer;
+    border-style: none;
+}
+
+.login:hover {
+    background-color: #e9e3e3;
+}
+
+.cadastro {
+    padding: 3px;
+    font-size: 12px;
+    background-color: black;
+    color:  white;
+    border: 2px solid;
+    text-decoration: none;
+    border-radius: 5px;    
+    cursor: pointer;
+}
+
+.cadastro:hover {
+    background-color: #a1a1a1;
+}
+
+footer { 
+    text-align: center;
+    max-width: 100%; 
+    color: white;
+    background-color:  rgb(4,3,63);
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+}
+
+/* Para telas menores que 600px - Celular */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        display: block;
+        text-align: center;
+    }
+}
+
+#bemvindoseculo21 {
+    font-family: Impact, Haettenschweiler, sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+.degradeA {
+    /* FAIXA COM DEGRADE - COLOR */
+    padding: 30px 30px;    
+    margin:  10px;
+    text-align: center; 
+    background-image: linear-gradient(to right, rgb(25, 25, 195), rgb(220, 45, 200) );
+}
+
+.degrade1 {
+    /* FAIXA COM DEGRADE - COLOR */
+    /* background-color: greenyellow; */    
+    padding: 30px 30px;    
+    margin:  10px;
+    text-align: center; 
+    background-image: linear-gradient(to right, rgb(60, 160, 60), blue );
+    background-image: linear-gradient(to right, blue, rgb(60, 160, 60) );
+    background-image: linear-gradient(to right, rgb(25, 25, 196), rgb(137, 137, 139) );
+    background-image: linear-gradient(to right, rgb(219, 45, 205), rgb(135, 105, 136) );
+    background-image: linear-gradient(to right, rgb(2, 122, 22), rgb(174, 204, 168) );
+}
+.degrade2 {
+    /* FAIXA COM DEGRADE - COLOR */
+    /* background-color: greenyellow; */    
+    padding: 30px 30px;    
+    margin:  10px;
+    text-align: center; 
+    background-image: linear-gradient(to right, rgb(219, 45, 205), rgb(217, 247, 109) );
+}
+.degrade3 {
+    /* FAIXA COM DEGRADE - COLOR */
+    /* background-color: greenyellow; */    
+    padding: 30px 30px;    
+    margin:  10px;
+    text-align: center; 
+    background-image: linear-gradient(to right, rgb(40, 40, 184), rgb(160, 214, 245) );
+}
